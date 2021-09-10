@@ -22,30 +22,28 @@ Crie 3 posts, sendo 2 posts de um mesmo autor.
 
 <br>
 
-3. Considerando nosso cenário de uma api de posts, o que as seguintes requisições HTTP fazem?
+<h2> 3. Considerando nosso cenário de uma api de posts, o que as seguintes requisições HTTP fazem? </h2>
 
-    1. GET http://localhost:3000/posts/1
+<h3> GET http://localhost:3000/posts/1 </h3>
 
 GET solicita ao servidor os dados do objeto de id 1, localizada na rota posts.
 
-    2. DELETE http://localhost:3000/posts/1
+<h3>  2. DELETE http://localhost:3000/posts/1 </h3>
 
 Nesse caso, serão deletados os dados do objeto de id 1, da rota posts. 
 
-    3. POST [http://localhost:3000/posts](http://localhost:3000/posts)
+<h3> 3. POST [http://localhost:3000/posts](http://localhost:3000/posts) </h3>
 
 Será criado um objeto dentro da rota posts, com suas as propriedades e valores.
 
 <br>
 
-4. Qual a diferença entre PUT e PATCH?
+<h2> 4. Qual a diferença entre PUT e PATCH? </h2>
 
 - 
 
-
 <br>
 
-
-5. Segundo a documentação do json-server e considerando a modelagem que você fez, qual seria a requisição necessária para **retornar todos os posts de um determinado autor?**
+<h2> 5. Segundo a documentação do json-server e considerando a modelagem que você fez, qual seria a requisição necessária para retornar todos os posts de um determinado autor? </h2>
 
 - 
