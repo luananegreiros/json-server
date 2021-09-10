@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "author": "Rupesh Mishra",
+      "photo": "https://miro.medium.com/fit/c/262/262/1*vkWAize3YPtA-vPkoQ06cA.jpeg",
+      "date": "May 6, 2017 ",
+      "title": "Lambda, Map, and Filter in Python",
+      "description": "A look at the syntax and usage of each function",
+      "image": "https://miro.medium.com/max/1400/1*Pl9OyXXrLH_5JiQB8vNx3w.jpeg",
+      "id": 1
+    },
+    {
+      "author": "Ilya Suzdalnitski",
+      "photo": "https://miro.medium.com/fit/c/262/262/2*9S9l47dN6pCSTT7yPa6nyg.jpeg",
+      "date": "Jul 10, 2019",
+      "title": "Object-Oriented Programming — The Trillion Dollar Disaster",
+      "description": "Why it’s time to move on from OOP",
+      "image": "https://miro.medium.com/max/2000/1*yX-lpOM2F9cQYJqBl2dBSg.jpeg",
+      "id": 2
+    },
+    {
+      "author": "Rupesh Mishra",
+      "photo": "https://miro.medium.com/fit/c/262/262/1*vkWAize3YPtA-vPkoQ06cA.jpeg",
+      "date": "May 4, 2017",
+      "title": "Prototypes in JavaScript",
+      "description": "In this post, we will discuss what are prototypes in JavaScript, how they help JavaScript in achieving the concepts of Object-Oriented Programming.",
+      "image": "https://miro.medium.com/max/700/1*O3fDiy_86uvPcoAfMIbgNQ.jpeg",
+      "id": 3
+    }
+  ],
+  "authors": [
+    {
+      "author": "Rupesh Mishra",
+      "photo": "https://miro.medium.com/fit/c/262/262/1*vkWAize3YPtA-vPkoQ06cA.jpeg",
+      "id": 1
+    },
+    {
+      "author": "Ilya Suzdalnitski",
+      "photo": "https://miro.medium.com/fit/c/262/262/2*9S9l47dN6pCSTT7yPa6nyg.jpeg",
+      "id": 2
+    }
+  ]
+}
