@@ -15,17 +15,9 @@ Crie 3 posts, sendo 2 posts de um mesmo autor.
 
 ## Critérios de sucesso do desafio
 
-<h4>
-
 1. Usando o [Tabbed Postman](https://chrome.google.com/webstore/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff/related?hl=pt-br) ao realizar um GET para [http://localhost:3000/posts](http://localhost:3000/posts), deverá retornar 3 posts, sendo 2 do mesmo autor
 
-<br>
-
 2. Usando o [Tabbed Postman](https://chrome.google.com/webstore/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff/related?hl=pt-br) ao realizar um GET para [http://localhost:3000/authors](http://localhost:3000/authors), deverá retornar 2 autores.
-
-</h4>
-
-<br>
 
 <h3> 3. Considerando nosso cenário de uma api de posts, o que as seguintes requisições HTTP fazem? </h3>
 
@@ -39,16 +31,21 @@ Nesse caso, serão deletados os dados do objeto de id 1, da rota posts.
 
 <h4> POST [http://localhost:3000/posts](http://localhost:3000/posts) </h4>
 
-Será criado um objeto dentro da rota posts, com suas as propriedades e valores.
+Será criado um objeto dentro da rota posts.
 
 <br>
 
 <h3> 4. Qual a diferença entre PUT e PATCH? </h3>
 
-- 
+- O método PUT subtitui todos os dados do objeto com os novos dados da requisição, e o PATCH permite alterar apenas uma parte dos dados do objeto. 
 
 <br>
 
 <h3> 5. Segundo a documentação do json-server e considerando a modelagem que você fez, qual seria a requisição necessária para retornar todos os posts de um determinado autor? </h3>
 
-- 
+- http://localhost:3000/posts?author=nome%do%autor --> author é a chave e o nome do autor o valor atribuído
+
+- http://localhost:3000/posts?author=Rupesh%20Mishra
+
+- http://localhost:3000/posts?author=Ilya%20Suzdalnitski 
+
