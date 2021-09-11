@@ -43,7 +43,7 @@ Será criado um objeto dentro da rota posts.
 
 <h3> 5. Segundo a documentação do json-server e considerando a modelagem que você fez, qual seria a requisição necessária para retornar todos os posts de um determinado autor? </h3>
 
-- http://localhost:3000/posts?author=nome%do%autor --> author é a chave e o nome do autor o valor atribuído
+- http://localhost:3000/posts?author=nome%20do%20autor --> author é a chave e o nome do autor o valor atribuído
 
 - http://localhost:3000/posts?author=Rupesh%20Mishra
 
